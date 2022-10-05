@@ -1,6 +1,6 @@
 <?php
 $objConnect = mysqli_connect("localhost","root","")or die("can't connect to database");
-$db = mysqli_select_db($objConnect, "mydbmid");
+$db = mysqli_select_db($objConnect, "mydb");
 mysqli_query($objConnect, "SET NAMES utf8");
 
 if($objConnect->connect_error)
